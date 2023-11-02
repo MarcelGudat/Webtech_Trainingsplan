@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="htwberlin.Webtech_Trainingsplan.WebtechTrainingsplanApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-19T17:45:59" hostname="MacBook-Air-von-Maximilian.local" time="0.534">
+  <properties/>
+  <testcase name="contextLoads()" classname="htwberlin.Webtech_Trainingsplan.WebtechTrainingsplanApplicationTests" time="0.534"/>
+  <system-out><![CDATA[19:45:58.245 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [htwberlin.Webtech_Trainingsplan.WebtechTrainingsplanApplicationTests]: WebtechTrainingsplanApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+19:45:58.329 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration htwberlin.Webtech_Trainingsplan.WebtechTrainingsplanApplication for test class htwberlin.Webtech_Trainingsplan.WebtechTrainingsplanApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.5)
+
+2023-10-19T19:45:58.585+02:00  INFO 9513 --- [    Test worker] h.W.WebtechTrainingsplanApplicationTests : Starting WebtechTrainingsplanApplicationTests using Java 20.0.1 with PID 9513 (started by m.scholz in /Users/m.scholz/Documents/Uni/Projekt_Webtech_Trainingsplan)
+2023-10-19T19:45:58.586+02:00  INFO 9513 --- [    Test worker] h.W.WebtechTrainingsplanApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-10-19T19:45:59.301+02:00  INFO 9513 --- [    Test worker] h.W.WebtechTrainingsplanApplicationTests : Started WebtechTrainingsplanApplicationTests in 0.874 seconds (process running for 1.686)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
