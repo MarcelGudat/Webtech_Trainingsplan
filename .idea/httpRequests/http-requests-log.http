@@ -1,5 +1,21 @@
 POST http://localhost:8080/things
 Content-Type: application/json
+Content-Length: 37
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Band",
+  "price": "50"
+}
+
+<> 2023-11-15T184246.200.json
+
+###
+
+POST http://localhost:8080/things
+Content-Type: application/json
 Content-Length: 38
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)

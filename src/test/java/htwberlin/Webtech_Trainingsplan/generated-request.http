@@ -2,6 +2,6 @@ POST http://localhost:8080/things
 Content-Type: application/json
 
 {
-  "name": "Kabel",
+  "name": "Band",
   "price": "50"
 }
