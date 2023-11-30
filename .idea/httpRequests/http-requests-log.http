@@ -1,3 +1,67 @@
+POST http://localhost:8080/uebung
+Content-Type: application/json
+Content-Length: 90
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Bankdrücken",
+  "beschreibung": "Sie müssen die Stange nach oben bewegen"
+}
+
+<> 2023-11-23T174514.200.json
+
+###
+
+POST http://localhost:8080/uebung
+Content-Type: application/json
+Content-Length: 90
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Bankdrücken",
+  "beschreibung": "Sie müssen die Stange nach oben bewegen"
+}
+
+<> 2023-11-23T174122.400.json
+
+###
+
+POST http://localhost:8080/uebung
+Content-Type: application/json
+Content-Length: 90
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Bankdrücken",
+  "beschreibung": "Sie müssen die Stange nach oben bewegen"
+}
+
+<> 2023-11-23T173644.200.json
+
+###
+
+POST http://localhost:8080/uebungs
+Content-Type: application/json
+Content-Length: 90
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Bankdrücken",
+  "beschreibung": "Sie müssen die Stange nach oben bewegen"
+}
+
+<> 2023-11-23T173559.404.json
+
+###
+
 POST http://localhost:8080/things
 Content-Type: application/json
 Content-Length: 37

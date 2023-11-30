@@ -1,7 +1,7 @@
-POST http://localhost:8080/things
+POST http://localhost:8080/uebung
 Content-Type: application/json
 
 {
-  "name": "Band",
-  "price": "50"
+  "name": "Bankdrücken",
+  "beschreibung": "Sie müssen die Stange nach oben bewegen"
 }
