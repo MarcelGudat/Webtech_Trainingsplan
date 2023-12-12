@@ -22,5 +22,12 @@
       <jdbc-url>jdbc:postgresql://dpg-cl1uefil7jac73f3sq4g-a.frankfurt-postgres.render.com/trainingsplan</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="trainingsplan@dpg-cl1uefil7jac73f3sq4g-a.frankfurt-postgres.render.com [2]" uuid="e9d5cfe9-c9ad-4756-ae53-998f11f4e397">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://dpg-cl1uefil7jac73f3sq4g-a.frankfurt-postgres.render.com/trainingsplan</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
