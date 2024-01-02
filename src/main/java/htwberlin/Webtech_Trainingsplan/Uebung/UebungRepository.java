@@ -1,4 +1,4 @@
-package htwberlin.Webtech_Trainingsplan;
+package htwberlin.Webtech_Trainingsplan.Uebung;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
