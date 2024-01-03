@@ -8,11 +8,13 @@ public class Uebung {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
+
+    @Column(length = 20000)
     private String beschreibung;
 
     public Uebung() {}
 
-    public Uebung(String name, int price) {
+    public Uebung(String name, String beschreibung) {
         this.name = name;
         this.beschreibung = beschreibung;
     }

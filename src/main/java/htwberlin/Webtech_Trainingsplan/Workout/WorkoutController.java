@@ -20,7 +20,7 @@ public class WorkoutController {
     public Workout createWorkout(@RequestBody Workout workout) {
         return service.save(workout);
     }
-    
+
 
     @GetMapping("/workout/{id}")
     public Workout getWorkout(@PathVariable Long id) {
@@ -29,6 +29,7 @@ public class WorkoutController {
 
     @GetMapping("/workouts")
     public Iterable<Workout> getWorkouts() { return service.getAll();}
+
 
     @DeleteMapping ("/workout/{id}")
     public void deleteWorkout(@PathVariable String id) {

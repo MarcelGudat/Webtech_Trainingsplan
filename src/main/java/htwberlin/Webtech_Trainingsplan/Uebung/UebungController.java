@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:8080/uebung", allowedHeaders = "*", allowCredentials = "true")
+@CrossOrigin(origins = "http://localhost:5173", allowedHeaders = "*", allowCredentials = "true")
 public class UebungController {
 
     @Autowired
@@ -29,9 +29,15 @@ public class UebungController {
         return service.get(uebungId);
     }
 
-    @GetMapping("/uebung")
+    @GetMapping("/uebungs")
     public List<Uebung> getAllThings() {
         return service.getAll();
+    }
+
+    @DeleteMapping ("/uebung/{id}")
+    public void deleteWorkout(@PathVariable String id) {
+        Long uebungid = Long.parseLong(id);
+        service.delete(uebungid);
     }
 
 

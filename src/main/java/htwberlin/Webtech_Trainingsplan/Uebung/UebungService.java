@@ -25,4 +25,8 @@ public class UebungService {
         for (Uebung uebung : iterator)  uebungs.add(uebung);
         return uebungs;
     }
+
+    public void delete(Long id) {
+        repo.deleteById(id);
+    }
 }
