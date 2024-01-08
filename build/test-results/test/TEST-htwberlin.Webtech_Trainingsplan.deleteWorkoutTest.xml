@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="htwberlin.Webtech_Trainingsplan.deleteWorkoutTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-01-08T14:29:59" hostname="MARCELS_LAPTOP" time="0.197">
+<testsuite name="htwberlin.Webtech_Trainingsplan.deleteWorkoutTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-01-08T15:05:16" hostname="MARCELS_LAPTOP" time="0.019">
   <properties/>
-  <testcase name="testDeleteWorkout()" classname="htwberlin.Webtech_Trainingsplan.deleteWorkoutTest" time="0.197"/>
-  <system-out><![CDATA[15:29:56.712 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [htwberlin.Webtech_Trainingsplan.deleteWorkoutTest]: deleteWorkoutTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-15:29:56.843 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration htwberlin.Webtech_Trainingsplan.WebtechTrainingsplanApplication for test class htwberlin.Webtech_Trainingsplan.deleteWorkoutTest
+  <testcase name="testDeleteWorkout()" classname="htwberlin.Webtech_Trainingsplan.deleteWorkoutTest" time="0.019"/>
+  <system-out><![CDATA[2024-01-08T16:05:16.726+01:00  INFO 24620 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [htwberlin.Webtech_Trainingsplan.deleteWorkoutTest]: deleteWorkoutTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-01-08T16:05:16.732+01:00  INFO 24620 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration htwberlin.Webtech_Trainingsplan.WebtechTrainingsplanApplication for test class htwberlin.Webtech_Trainingsplan.deleteWorkoutTest
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -13,17 +13,13 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.1.4)
 
-2024-01-08T15:29:57.300+01:00  INFO 25000 --- [    Test worker] h.W.deleteWorkoutTest                    : Starting deleteWorkoutTest using Java 21.0.1 with PID 25000 (started by gudat in C:\Users\gudat\Documents\Webtech_Trainingsplan)
-2024-01-08T15:29:57.301+01:00  INFO 25000 --- [    Test worker] h.W.deleteWorkoutTest                    : No active profile set, falling back to 1 default profile: "default"
-2024-01-08T15:29:59.818+01:00  WARN 25000 --- [    Test worker] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2024-01-08T15:29:59.873+01:00  INFO 25000 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2024-01-08T15:29:59.873+01:00  INFO 25000 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2024-01-08T15:29:59.877+01:00  INFO 25000 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
-2024-01-08T15:29:59.918+01:00  INFO 25000 --- [    Test worker] h.W.deleteWorkoutTest                    : Started deleteWorkoutTest in 2.976 seconds (process running for 4.489)
+2024-01-08T16:05:16.759+01:00  INFO 24620 --- [    Test worker] h.W.deleteWorkoutTest                    : Starting deleteWorkoutTest using Java 21 with PID 24620 (started by gudat in C:\Users\gudat\Documents\Webtech_Trainingsplan)
+2024-01-08T16:05:16.759+01:00  INFO 24620 --- [    Test worker] h.W.deleteWorkoutTest                    : The following 1 profile is active: "test"
+2024-01-08T16:05:16.972+01:00  WARN 24620 --- [    Test worker] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-01-08T16:05:16.977+01:00  INFO 24620 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-01-08T16:05:16.977+01:00  INFO 24620 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-01-08T16:05:16.978+01:00  INFO 24620 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-01-08T16:05:16.981+01:00  INFO 24620 --- [    Test worker] h.W.deleteWorkoutTest                    : Started deleteWorkoutTest in 0.246 seconds (process running for 8.448)
 ]]></system-out>
-  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\gudat\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.8\ae6ebe485f3bcd0a1e20241488a32e6400a501ef\byte-buddy-agent-1.14.8.jar)
-WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
-WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
-WARNING: Dynamic loading of agents will be disallowed by default in a future release
-]]></system-err>
+  <system-err><![CDATA[]]></system-err>
 </testsuite>
