@@ -33,7 +33,8 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
             when(service.get(42L)).thenReturn(u1);
 
             // Erwartetes Ergebnis
-            String expected = "{\"id\":42,\"name\":\"Testname\",\"beschreibung\":\"Testbeschreibung\"}";
+            String expected =
+            "{\"id\":42,\"name\":\"Testname\",\"beschreibung\":\"Testbeschreibung\"}";
             // Aufruf und Vergleich
             this.mockMvc.perform(get("/uebung/42"))
                     .andExpect(status().isOk())

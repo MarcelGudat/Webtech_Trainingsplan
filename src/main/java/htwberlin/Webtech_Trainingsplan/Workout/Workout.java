@@ -18,7 +18,7 @@ public class Workout {
     private String uebung5;
     private String uebung6;
 
-    public Workout(long l, String s, String s1) {}
+    public Workout(String s) {}
 
     public Workout(String workoutname, String uebung1, String uebung2, String uebung3, String uebung4, String uebung5, String uebung6) {
         this.workoutname = workoutname;
@@ -109,4 +109,6 @@ public class Workout {
                 ", Übung6='" + uebung6 + '\'' +
                 '}';
     }
+
+
 }
