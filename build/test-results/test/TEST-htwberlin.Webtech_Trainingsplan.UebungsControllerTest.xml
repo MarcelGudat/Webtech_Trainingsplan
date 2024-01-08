@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="htwberlin.Webtech_Trainingsplan.UebungsControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-01-08T15:05:13" hostname="MARCELS_LAPTOP" time="0.207">
+<testsuite name="htwberlin.Webtech_Trainingsplan.UebungsControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-01-08T15:19:51" hostname="MARCELS_LAPTOP" time="0.257">
   <properties/>
-  <testcase name="testGetRoute()" classname="htwberlin.Webtech_Trainingsplan.UebungsControllerTest" time="0.207"/>
-  <system-out><![CDATA[16:05:09.829 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [htwberlin.Webtech_Trainingsplan.UebungsControllerTest]: UebungsControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-16:05:10.000 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration htwberlin.Webtech_Trainingsplan.WebtechTrainingsplanApplication for test class htwberlin.Webtech_Trainingsplan.UebungsControllerTest
+  <testcase name="testGetRoute()" classname="htwberlin.Webtech_Trainingsplan.UebungsControllerTest" time="0.257"/>
+  <system-out><![CDATA[16:19:48.316 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [htwberlin.Webtech_Trainingsplan.UebungsControllerTest]: UebungsControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:19:48.490 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration htwberlin.Webtech_Trainingsplan.WebtechTrainingsplanApplication for test class htwberlin.Webtech_Trainingsplan.UebungsControllerTest
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -13,14 +13,14 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.1.4)
 
-2024-01-08T16:05:10.628+01:00  INFO 24620 --- [    Test worker] h.W.UebungsControllerTest                : Starting UebungsControllerTest using Java 21 with PID 24620 (started by gudat in C:\Users\gudat\Documents\Webtech_Trainingsplan)
-2024-01-08T16:05:10.629+01:00  INFO 24620 --- [    Test worker] h.W.UebungsControllerTest                : The following 1 profile is active: "test"
-2024-01-08T16:05:13.062+01:00  WARN 24620 --- [    Test worker] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2024-01-08T16:05:13.117+01:00  INFO 24620 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2024-01-08T16:05:13.117+01:00  INFO 24620 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2024-01-08T16:05:13.120+01:00  INFO 24620 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
-2024-01-08T16:05:13.164+01:00  INFO 24620 --- [    Test worker] h.W.UebungsControllerTest                : Started UebungsControllerTest in 3.035 seconds (process running for 4.63)
-2024-01-08T16:05:13.295+01:00  INFO 24620 --- [    Test worker] h.W.Uebung.UebungController              : GET request on route things with 42
+2024-01-08T16:19:49.008+01:00  INFO 26996 --- [    Test worker] h.W.UebungsControllerTest                : Starting UebungsControllerTest using Java 21 with PID 26996 (started by gudat in C:\Users\gudat\Documents\Webtech_Trainingsplan)
+2024-01-08T16:19:49.010+01:00  INFO 26996 --- [    Test worker] h.W.UebungsControllerTest                : The following 1 profile is active: "test"
+2024-01-08T16:19:51.252+01:00  WARN 26996 --- [    Test worker] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-01-08T16:19:51.315+01:00  INFO 26996 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-01-08T16:19:51.316+01:00  INFO 26996 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-01-08T16:19:51.322+01:00  INFO 26996 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 4 ms
+2024-01-08T16:19:51.366+01:00  INFO 26996 --- [    Test worker] h.W.UebungsControllerTest                : Started UebungsControllerTest in 2.765 seconds (process running for 4.43)
+2024-01-08T16:19:51.525+01:00  INFO 26996 --- [    Test worker] h.W.Uebung.UebungController              : GET request on route things with 42
 ]]></system-out>
   <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\gudat\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.8\ae6ebe485f3bcd0a1e20241488a32e6400a501ef\byte-buddy-agent-1.14.8.jar)
 WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
