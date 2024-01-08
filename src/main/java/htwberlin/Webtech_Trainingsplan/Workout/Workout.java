@@ -18,7 +18,7 @@ public class Workout {
     private String uebung5;
     private String uebung6;
 
-    public Workout() {}
+    public Workout(long l, String s, String s1) {}
 
     public Workout(String workoutname, String uebung1, String uebung2, String uebung3, String uebung4, String uebung5, String uebung6) {
         this.workoutname = workoutname;
@@ -28,6 +28,10 @@ public class Workout {
         this.uebung4 = uebung4;
         this.uebung5 = uebung5;
         this.uebung6 = uebung6;
+    }
+
+    public Workout() {
+
     }
 
     public Long getId() {
