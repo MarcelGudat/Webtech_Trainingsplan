@@ -1,3 +1,5 @@
+[![Java CI with Gradle](https://github.com/MarcelGudat/Webtech_Trainingsplan/actions/workflows/main.yml/badge.svg)](https://github.com/MarcelGudat/Webtech_Trainingsplan/actions/workflows/main.yml)
+
 # Projekt_Webtech_Trainingsplan
 
 In unserer Webanwendung soll ich alles um das Thema Kraftsport drehen. 
